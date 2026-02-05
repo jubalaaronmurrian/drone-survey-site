@@ -1,0 +1,71 @@
+/* Page wrapper sections */
+.page-header {
+  padding: 3rem 5vw 1.5rem;
+  background: radial-gradient(circle at top left, #0ea5e9 0, #0f172a 45%, #020617 100%);
+  color: #e5e7eb;
+  text-align: left;
+}
+
+.page-header h1 {
+  font-size: clamp(2rem, 2.6vw + 1rem, 2.8rem);
+  margin-bottom: 0.75rem;
+}
+
+.page-header p {
+  max-width: 40rem;
+  font-size: 1rem;
+  color: #cbd5f5;
+}
+
+/* Main content area */
+.content {
+  padding: 2.5rem 5vw 3rem;
+  background: #f9fafb;
+  color: #0f172a;
+}
+
+.content h2 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.content p {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  max-width: 48rem;
+}
+
+.content ul {
+  margin: 0.5rem 0 1rem 1.2rem;
+  padding: 0;
+}
+
+.content li {
+  margin-bottom: 0.3rem;
+  font-size: 0.96rem;
+}
+
+/* Buttons (reuse landing styles) */
+.btn {
+  border-radius: 999px;
+  padding: 0.7rem 1.4rem;
+  font-size: 0.95rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.btn.primary {
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.btn.primary:hover {
+  background: #0ea5e9;
+}
