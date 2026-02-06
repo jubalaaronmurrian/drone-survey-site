@@ -5,6 +5,7 @@ import { NdviComponent } from './ndvi/ndvi';
 import { SurfaceModelsComponent } from './surface-models/surface-models';
 import { AboutComponent } from './about/about';
 import { ContactComponent } from './contact/contact';
+import { CaseStudy } from './case-study/case-study';
 
 export const routes: Routes = [{ path: '', component: LandingComponent },
   { path: 'orthophoto', component: OrthophotoComponent },
@@ -12,4 +13,5 @@ export const routes: Routes = [{ path: '', component: LandingComponent },
   { path: 'surface-models', component: SurfaceModelsComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
+  {path:'case-study',component:CaseStudy},
   { path: '**', redirectTo: '' }];

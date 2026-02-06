@@ -1,35 +1,73 @@
-<section class="page-header">
-  <h1>Request a Mapping Quote</h1>
-  <p class="contact-subtitle">
-    Tell us about your property and the type of mapping you need.
-  </p>
+<section class="service-wrapper">
+  <header class="page-header">
+    <h1>Request a Mapping Quote</h1>
+    <p>
+      Tell us about your property and the type of mapping you need. We’ll prepare a customized quote
+      based on your goals and location.
+    </p>
+  </header>
 
-  <form class="contact-card">
-    <div class="form-field">
-      <label>Name</label>
-      <input type="text" />
+  <div class="service-grid">
+    <!-- MAIN CARD (matches landing page card style) -->
+    <div class="service-card">
+      <h2>Tell Us About Your Project</h2>
+      <p>
+        Provide a few details below and we’ll reach out with pricing, turnaround time, and recommended
+        mapping options for your property.
+      </p>
+
+      <form class="contact-form">
+        <div class="form-field">
+          <label>Name</label>
+          <input type="text" placeholder="Your name" />
+        </div>
+
+        <div class="form-field">
+          <label>Email</label>
+          <input type="email" placeholder="you@example.com" />
+        </div>
+
+        <div class="form-field">
+          <label>Service Needed</label>
+          <select>
+            <option>Orthophoto Mapping</option>
+            <option>NDVI Vegetation Analysis</option>
+            <option>Surface/Elevation Modeling</option>
+            <option>Full Property Mapping Package</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label>Property Location</label>
+          <input type="text" placeholder="City, State" />
+        </div>
+
+        <div class="form-field">
+          <label>Project Details</label>
+          <textarea rows="4" placeholder="Tell us about your property and goals"></textarea>
+        </div>
+
+        <button class="btn primary">Submit Request</button>
+      </form>
     </div>
 
-    <div class="form-field">
-      <label>Email</label>
-      <input type="email" />
-    </div>
+    <!-- SIDE PANEL (optional visuals, matching landing page style) -->
+    <aside class="service-side">
+      <div class="service-visual">
+        <h3>What We Provide</h3>
+        <p>High‑accuracy mapping for residential and commercial properties.</p>
+        <div class="service-image-placeholder">
+          Example: Icons for Orthophoto, NDVI, and Surface Models.
+        </div>
+      </div>
 
-    <div class="form-field">
-      <label>Service Needed</label>
-      <select>
-        <option>Orthophoto Mapping</option>
-        <option>NDVI Analysis</option>
-        <option>Surface Models</option>
-        <option>Full Property Report</option>
-      </select>
-    </div>
-
-    <div class="form-field">
-      <label>Project Details</label>
-      <textarea rows="4"></textarea>
-    </div>
-
-    <button class="btn primary">Submit</button>
-  </form>
+      <div class="service-visual">
+        <h3>Service Area</h3>
+        <p>Serving homeowners and businesses across Florida.</p>
+        <div class="service-image-placeholder">
+          Example: Florida map with highlighted coverage region.
+        </div>
+      </div>
+    </aside>
+  </div>
 </section>

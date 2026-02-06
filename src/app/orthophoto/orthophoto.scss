@@ -69,3 +69,157 @@
 .btn.primary:hover {
   background: #0ea5e9;
 }
+
+/* Shared wrapper for service pages */
+.service-wrapper {
+  background: #f9fafb;
+  color: #0f172a;
+}
+
+/* Title + subtitle centered like Request a Quote */
+.service-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.service-header h1 {
+  font-size: clamp(2rem, 2.6vw + 1rem, 2.8rem);
+  margin-bottom: 0.5rem;
+}
+
+.service-header p {
+  max-width: 40rem;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+/* Card layout container */
+.service-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1.4fr);
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+/* Main info card */
+.service-card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+}
+
+.service-card h2 {
+  font-size: 1.3rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.service-card p {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: #374151;
+}
+
+.service-card ul {
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.service-card li {
+  margin-bottom: 0.35rem;
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+/* Side panel for charts/images */
+.service-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.service-visual {
+  background: #0f172a;
+  color: #e5e7eb;
+  border-radius: 1rem;
+  padding: 1.2rem 1.4rem;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.4);
+}
+
+.service-visual h3 {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.service-visual p {
+  font-size: 0.9rem;
+  color: #cbd5f5;
+}
+
+/* Placeholder “image” area */
+.service-image-placeholder {
+  margin-top: 0.6rem;
+  border-radius: 0.75rem;
+  border: 1px dashed rgba(148, 163, 184, 0.7);
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  color: #e5e7eb;
+}
+
+/* Button */
+.btn {
+  border-radius: 999px;
+  padding: 0.7rem 1.4rem;
+  font-size: 0.95rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.btn.primary {
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.btn.primary:hover {
+  background: #0ea5e9;
+}
+
+/* Dark mode */
+body.dark-mode .service-wrapper {
+  background: #020617;
+  color: #e2e8f0;
+}
+
+body.dark-mode .service-card {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+body.dark-mode .service-card p,
+body.dark-mode .service-card li {
+  color: #cbd5e1;
+}
+
+body.dark-mode .service-visual {
+  background: #020617;
+  color: #e5e7eb;
+}
+
+body.dark-mode .service-image-placeholder {
+  border-color: #475569;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+}
