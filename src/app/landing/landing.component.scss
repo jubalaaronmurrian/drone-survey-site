@@ -268,6 +268,196 @@ textarea:focus {
   gap: 0.5rem;
 }
 
+/* ----------------------------- */
+/* LIGHT THEME — Landing Page    */
+/* ----------------------------- */
+
+body.light-mode .hero {
+  background: radial-gradient(circle at top left, #0ea5e9 0, #0f172a 45%, #020617 100%);
+  color: #e5e7eb;
+}
+
+body.light-mode .hero-content h1 {
+  color: #ffffff;
+}
+
+body.light-mode .hero-content p {
+  color: #cbd5f5;
+}
+
+body.light-mode .hero-actions .btn.primary {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+body.light-mode .hero-actions .btn.secondary {
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  color: #e2e8f0;
+}
+
+body.light-mode .hero-image .hero-drone-graphic {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #e2e8f0;
+}
+
+/* NAVIGATION */
+body.light-mode .top-nav {
+  background: #ffffff;
+  color: #0f172a;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+body.light-mode .top-nav .nav-links a {
+  color: #0f172a;
+}
+
+body.light-mode .top-nav .nav-links a:hover {
+  color: #0ea5e9;
+}
+
+/* SECTIONS */
+body.light-mode .section {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+body.light-mode .section.alt {
+  background: #f9fafb;
+}
+
+/* CARDS */
+body.light-mode .cards .card,
+body.light-mode .grid > div,
+body.light-mode .steps .step {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+}
+
+body.light-mode .cards .card h3,
+body.light-mode .grid h3,
+body.light-mode .steps h3 {
+  color: #0f172a;
+}
+
+body.light-mode .cards .card p,
+body.light-mode .grid p,
+body.light-mode .steps p {
+  color: #374151;
+}
+
+/* CONTACT FORM */
+body.light-mode .contact form input,
+body.light-mode .contact form select,
+body.light-mode .contact form textarea {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #0f172a;
+}
+
+body.light-mode .contact form label {
+  color: #4b5563;
+}
+
+/* ----------------------------- */
+/* DARK THEME — Landing Page     */
+/* ----------------------------- */
+
+body.dark-mode .hero {
+  background: radial-gradient(circle at top left, #38bdf8 0, #020617 55%, #020617 100%);
+  color: #e2e8f0;
+}
+
+body.dark-mode .hero-content h1 {
+  color: #ffffff;
+}
+
+body.dark-mode .hero-content p {
+  color: #cbd5f5;
+}
+
+body.dark-mode .hero-actions .btn.primary {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+body.dark-mode .hero-actions .btn.secondary {
+  background: transparent;
+  border: 1px solid #475569;
+  color: #e2e8f0;
+}
+
+body.dark-mode .hero-image .hero-drone-graphic {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #e2e8f0;
+}
+
+/* NAVIGATION */
+body.dark-mode .top-nav {
+  background: #0f172a;
+  color: #e2e8f0;
+  border-bottom: 1px solid #1e293b;
+}
+
+body.dark-mode .top-nav .nav-links a {
+  color: #e2e8f0;
+}
+
+body.dark-mode .top-nav .nav-links a:hover {
+  color: #38bdf8;
+}
+
+/* SECTIONS */
+body.dark-mode .section {
+  background: #020617;
+  color: #e2e8f0;
+}
+
+body.dark-mode .section.alt {
+  background: #0b1120;
+}
+
+/* CARDS */
+body.dark-mode .cards .card,
+body.dark-mode .grid > div,
+body.dark-mode .steps .step {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .cards .card h3,
+body.dark-mode .grid h3,
+body.dark-mode .steps h3 {
+  color: #38bdf8;
+}
+
+body.dark-mode .cards .card p,
+body.dark-mode .grid p,
+body.dark-mode .steps p {
+  color: #cbd5e1;
+}
+
+/* CONTACT FORM */
+body.dark-mode .contact form input,
+body.dark-mode .contact form select,
+body.dark-mode .contact form textarea {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #e2e8f0;
+}
+
+body.dark-mode .contact form label {
+  color: #cbd5e1;
+}
+
 /* Responsive */
 @media (max-width: 800px) {
   .hero {

@@ -217,6 +217,43 @@ body.dark-mode .service-image-placeholder {
   border-color: #475569;
 }
 
+/* LIGHT THEME (explicit) */
+body.light-mode .service-wrapper {
+  background: #f9fafb;
+  color: #0f172a;
+}
+
+body.light-mode .service-card {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+body.light-mode .service-card p,
+body.light-mode .service-card li {
+  color: #374151;
+}
+
+body.light-mode .service-visual {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+body.light-mode .service-image-placeholder {
+  border-color: rgba(148, 163, 184, 0.7);
+}
+
+body.light-mode .contact-form input,
+body.light-mode .contact-form select,
+body.light-mode .contact-form textarea {
+  background: #ffffff;
+  color: #0f172a;
+  border-color: #cbd5e1;
+}
+
+body.light-mode .form-field label {
+  color: #4b5563;
+}
+
 /* Mobile */
 @media (max-width: 900px) {
   .service-grid {
